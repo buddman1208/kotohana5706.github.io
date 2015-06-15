@@ -1,0 +1,8 @@
+div.info > .sub_info{
+    margin-top:50px;
+    font: 25px "Helvetica";
+    line-height:35px;
+}
+div.middle>div.tab1{
+    background:url(../images/slash.png)
+}

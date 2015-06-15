@@ -1,0 +1,42 @@
+div.middle>div.tab2{
+    background:url(../images/slash.png)
+}
+
+div.info > .maintext #smalltext{
+    text-decoration: line-through;
+    font-size: 20px
+}
+
+div.images{
+    text-align: center;
+    width: 100%;
+    display: table;
+}
+div.images > ul> li{
+    display: table-cell;
+}
+div.images > ul>li>a{
+    width:121px;
+    height:125px;
+    display: block;
+    margin:10px;
+    text-indent: -10000px;
+    background: url(../images/program_icons.png);
+}
+div.images > ul > li > a#icon2{
+    background-position: -118px, 0px;
+    width:115px;
+}
+div.images > ul > li > a#icon3{
+    background-position: -235px, 0px;
+    width:120px;
+}
+div.images > ul > li > a#icon4{
+    background-position: -355px, 0px;
+    width:115px;
+}
+
+div.images > ul > li > a#icon5{
+    background-position: -470px, 0px;
+    width:120px;
+}

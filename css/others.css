@@ -1,0 +1,14 @@
+div.middle>div.tab4{
+    background:url(../images/slash.png)
+}
+div.subtext> p#title{
+    font-size: 30px;
+    margin-bottom:0;
+    font-weight: bold;
+}
+div.subtext > p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px
+}

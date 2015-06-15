@@ -1,0 +1,66 @@
+html,body{ background:url(../images/bg.jpg) no-repeat center center fixed;
+    color:white;
+    background-size:cover; margin:0; padding:0; height:100%;}
+div.container {
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+div.info{
+    flex: 1 0 0;
+    margin-top:150px;
+    margin-left: 50px
+}
+div.menu{
+    background:url(../images/left_bar_top.png) repeat-y;
+    max-width:301px;
+    min-width: 220px;
+    height:100%;
+    width: 35%;
+    text-align: center;
+    position: relative;
+}
+div.vCenter { display: table;  width: 100%; height: 25%; }
+div.vCenter span { display: table-cell;     text-align: center; vertical-align: middle; }
+div.middle{
+    height:60%;
+    background: url(../images/left_bar_under.png) repeat-y;
+}
+div.middle>div{
+    display:table;
+    width:100%;
+    height:25%;
+    min-height: 87px;
+}
+div.middle>div>span{
+    font-size: 25px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+div.footer{
+    display:table;
+    height: 15%;
+    width: 100%;
+    bottom: 0;
+    min-height: 87px;
+    position: absolute;
+    background:url(../images/left_bar_top.png) repeat-y;
+}
+div.footer > span{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+div.info > .maintext{
+    margin-top:50px;
+    font: 30px "맑은 고딕";
+    line-height: 50px;
+}
