@@ -31,3 +31,9 @@ html,body{ background:url(../images/bg.jpg) no-repeat center center fixed;
 #content>ul>li>a#icon4{
     background-position: -686px, 0px;
 }
+p{
+    line-height: 30px;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
